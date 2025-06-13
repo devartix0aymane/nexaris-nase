@@ -1,0 +1,15 @@
+# Core dependencies
+python>=3.8
+sqlite3
+json
+
+# Data handling
+pandas>=1.3.0
+numpy>=1.20.0
+
+# Optional - for cognitive load estimation
+requests>=2.25.0  # For API communication with NCLE
+
+# Optional - for LLM integration
+transformers>=4.15.0  # For local LLM models
+torch>=1.10.0  # For PyTorch-based models

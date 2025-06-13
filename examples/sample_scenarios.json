@@ -1,0 +1,242 @@
+[
+    {
+        "id": "phish-001",
+        "title": "Suspicious Email Alert",
+        "description": "A basic email phishing attempt",
+        "content": "You receive an email with the subject 'Urgent: Your account has been compromised'. The email asks you to click a link and enter your credentials to secure your account. The sender's email is 'security-alert@g00gle.com'. What should you do?",
+        "options": [
+            "Click the link and enter your credentials to secure your account",
+            "Ignore the email and delete it",
+            "Forward the email to your IT department and report it as suspicious",
+            "Reply to the sender asking for more information"
+        ],
+        "correct_answer": 2,
+        "difficulty": 1,
+        "explanation": "This is a phishing attempt. The sender's email domain 'g00gle.com' is suspicious (notice the zeros instead of 'o's). Legitimate security alerts typically don't ask you to click links and enter credentials. Always report suspicious emails to your IT department.",
+        "theme": "email phishing"
+    },
+    {
+        "id": "phish-002",
+        "title": "Password Reset Request",
+        "description": "A password reset phishing attempt",
+        "content": "You receive an email claiming to be from Microsoft Office 365 stating that your password is about to expire. It provides a link to reset your password. The email looks professional and has Microsoft logos. What is the best action?",
+        "options": [
+            "Click the link and reset your password",
+            "Check the sender's email address for legitimacy",
+            "Ignore the email as it's definitely a scam",
+            "Open your browser and navigate directly to Office 365 to check your password status"
+        ],
+        "correct_answer": 3,
+        "difficulty": 2,
+        "explanation": "Even if an email looks legitimate, you should never click on password reset links directly from emails. Instead, open your browser and navigate directly to the service's official website. This prevents you from being directed to a phishing site.",
+        "theme": "password security"
+    },
+    {
+        "id": "social-001",
+        "title": "Unexpected Call from IT",
+        "description": "A social engineering attempt via phone",
+        "content": "You receive a call from someone claiming to be from your company's IT department. They say they've detected suspicious activity on your account and need your password to fix the issue. What should you do?",
+        "options": [
+            "Provide your password since they're from IT",
+            "Ask for their employee ID and call back the official IT helpdesk",
+            "Tell them you'll change your password yourself",
+            "Hang up immediately without saying anything"
+        ],
+        "correct_answer": 1,
+        "difficulty": 2,
+        "explanation": "This is a social engineering attempt. IT staff should never ask for your password. The best approach is to verify the caller's identity by asking for their employee ID and then calling back through the official IT helpdesk number that you look up independently.",
+        "theme": "social engineering"
+    },
+    {
+        "id": "malware-001",
+        "title": "Suspicious Attachment",
+        "description": "Identifying a malicious email attachment",
+        "content": "You receive an email with the subject 'Invoice for your recent purchase'. The email contains an attachment named 'Invoice_details.exe'. You don't recall making any recent purchases. What should you do?",
+        "options": [
+            "Open the attachment to see what purchase it refers to",
+            "Reply to the sender asking for clarification",
+            "Delete the email without opening the attachment",
+            "Save the attachment and scan it with antivirus software"
+        ],
+        "correct_answer": 2,
+        "difficulty": 1,
+        "explanation": "This is likely a malware distribution attempt. Executable files (.exe) sent via email are almost always malicious. If you don't recognize the sender or aren't expecting an invoice, you should delete the email without opening any attachments.",
+        "theme": "malware"
+    },
+    {
+        "id": "whaling-001",
+        "title": "CEO Urgent Request",
+        "description": "A sophisticated whaling/spear-phishing attempt",
+        "content": "You receive an email that appears to be from your company's CEO. The email says: 'I'm in an emergency meeting and need you to purchase $500 in gift cards for a client. Please keep this confidential and send the gift card codes to me ASAP. I'll reimburse you later.' The email address looks legitimate. What should you do?",
+        "options": [
+            "Purchase the gift cards and send the codes as requested",
+            "Reply to the email asking for more details",
+            "Contact the CEO through another channel to verify the request",
+            "Forward the email to your supervisor for guidance"
+        ],
+        "correct_answer": 2,
+        "difficulty": 3,
+        "explanation": "This is a common CEO fraud or 'whaling' attack. Even if the email appears legitimate, unusual requests involving money or gift cards should always be verified through a different communication channel. Call or text the CEO directly using their known contact information.",
+        "theme": "whaling"
+    },
+    {
+        "id": "physical-001",
+        "title": "Tailgating Scenario",
+        "description": "Physical security awareness scenario",
+        "content": "You're entering your office building and notice someone without a visible badge following closely behind you. They're well-dressed and carrying a laptop bag. They smile and say they forgot their badge at home. What should you do?",
+        "options": [
+            "Hold the door open for them since they look like they belong",
+            "Ask them to use the intercom to contact reception",
+            "Let them in but immediately report them to security",
+            "Ignore them and continue to your desk"
+        ],
+        "correct_answer": 1,
+        "difficulty": 2,
+        "explanation": "This is a tailgating attempt, a common physical security breach. Even if someone looks like they belong, they should follow proper security protocols. The best action is to direct them to use the intercom or reception desk to gain proper access.",
+        "theme": "physical security"
+    },
+    {
+        "id": "usb-001",
+        "title": "Found USB Drive",
+        "description": "USB drop attack scenario",
+        "content": "You find a USB flash drive in the company parking lot with your company's logo printed on it. What is the most appropriate action to take?",
+        "options": [
+            "Plug it into your computer to see if you can identify the owner",
+            "Hand it to your IT department without plugging it in",
+            "Ask around to see if anyone lost a USB drive",
+            "Keep it for yourself since no one is around"
+        ],
+        "correct_answer": 1,
+        "difficulty": 2,
+        "explanation": "This is likely a USB drop attack. Malicious actors leave USB drives hoping someone will plug them in, which can automatically install malware. Even with your company logo (which can be easily faked), you should never plug in an unknown USB drive. Hand it to IT security without plugging it in.",
+        "theme": "physical security"
+    },
+    {
+        "id": "wifi-001",
+        "title": "Public WiFi Usage",
+        "description": "Secure network usage scenario",
+        "content": "You're working from a coffee shop and need to access your company's financial reports. The coffee shop has free WiFi called 'CoffeeShop_Free'. What's the most secure way to access these reports?",
+        "options": [
+            "Connect to the free WiFi and access the reports directly",
+            "Ask the barista for the password to their secure WiFi",
+            "Use your phone's mobile hotspot instead of public WiFi",
+            "Wait until you return to the office to access the reports"
+        ],
+        "correct_answer": 2,
+        "difficulty": 3,
+        "explanation": "Public WiFi networks are insecure and can be easily monitored or spoofed. When accessing sensitive company information, you should use a secure connection like your mobile hotspot or a VPN. Using your phone's hotspot creates a private connection that is much more difficult for attackers to intercept.",
+        "theme": "network security"
+    },
+    {
+        "id": "password-001",
+        "title": "Password Management",
+        "description": "Password security best practices",
+        "content": "You need to create passwords for multiple work accounts. Which of the following approaches is most secure?",
+        "options": [
+            "Use variations of the same password for all accounts (e.g., Password1, Password2)",
+            "Use a password manager to generate and store unique passwords",
+            "Create a system where you use the same base password with different endings",
+            "Write down all your passwords in a notebook kept in your desk"
+        ],
+        "correct_answer": 1,
+        "difficulty": 1,
+        "explanation": "Using a password manager is the most secure approach. Password managers generate strong, unique passwords for each account and store them securely. This prevents password reuse, which is dangerous because if one account is compromised, all accounts with the same or similar passwords become vulnerable.",
+        "theme": "password security"
+    },
+    {
+        "id": "mfa-001",
+        "title": "MFA Prompt Bombing",
+        "description": "Multi-factor authentication attack scenario",
+        "content": "You receive multiple push notifications on your phone asking you to approve a login to your company account, but you haven't tried to log in. What should you do?",
+        "options": [
+            "Approve one of the requests to stop the notifications",
+            "Ignore the notifications and they will eventually stop",
+            "Deny the requests and immediately change your password",
+            "Contact IT security to report the incident"
+        ],
+        "correct_answer": 2,
+        "difficulty": 3,
+        "explanation": "This is an MFA bombing attack where attackers have your password and are trying to trick you into approving a fraudulent login. You should deny the requests, immediately change your password, and report the incident to your IT security team. Never approve MFA requests you didn't initiate.",
+        "theme": "authentication security"
+    },
+    {
+        "id": "ransomware-001",
+        "title": "Ransomware Prevention",
+        "description": "Ransomware attack prevention scenario",
+        "content": "You're working on your computer when suddenly a pop-up appears claiming your files have been encrypted and demanding payment in cryptocurrency to restore access. Some of your files now have strange extensions. What is the first action you should take?",
+        "options": [
+            "Pay the ransom to get your files back quickly",
+            "Try to find decryption tools online",
+            "Disconnect your computer from the network and report to IT",
+            "Restart your computer to see if the problem resolves"
+        ],
+        "correct_answer": 2,
+        "difficulty": 4,
+        "explanation": "This is a ransomware attack. The first step is to disconnect from the network to prevent the ransomware from spreading to other systems. Then immediately report the incident to your IT security team. Never pay the ransom as it doesn't guarantee file recovery and encourages further attacks.",
+        "theme": "ransomware"
+    },
+    {
+        "id": "insider-001",
+        "title": "Data Exfiltration Attempt",
+        "description": "Insider threat detection scenario",
+        "content": "You notice a colleague copying large amounts of customer data to a personal USB drive after hours. They claim they're just taking work home. What should you do?",
+        "options": [
+            "Mind your own business, they're probably just working late",
+            "Confront them directly about the policy violation",
+            "Offer to help them find a more secure way to work remotely",
+            "Report the incident to your manager or security team"
+        ],
+        "correct_answer": 3,
+        "difficulty": 4,
+        "explanation": "This is a potential insider threat and data exfiltration attempt. Company policy typically prohibits copying sensitive data to personal devices. Even if the intent is innocent, this creates significant security risks. You should report this to management or security without confronting the person directly.",
+        "theme": "insider threat"
+    },
+    {
+        "id": "deepfake-001",
+        "title": "Video Conference Verification",
+        "description": "Deepfake detection scenario",
+        "content": "You receive an urgent video call supposedly from your CEO asking you to transfer funds to a new account for an acquisition. The video and audio seem slightly off, with occasional unnatural movements. What should you do?",
+        "options": [
+            "Process the transfer immediately as the CEO requested",
+            "Ask verification questions only the real CEO would know",
+            "End the call and verify through official channels",
+            "Tell them you'll need written authorization first"
+        ],
+        "correct_answer": 2,
+        "difficulty": 5,
+        "explanation": "This is likely a deepfake attack using AI-generated video and audio to impersonate the CEO. The slight irregularities in movement and audio are red flags. End the call and verify the request through established company channels. Never process financial transactions based solely on a call, even if it appears to be from leadership.",
+        "theme": "deepfake"
+    },
+    {
+        "id": "smishing-001",
+        "title": "SMS Phishing Detection",
+        "description": "SMS-based phishing (smishing) scenario",
+        "content": "You receive a text message that says: 'ALERT: Unusual sign-in to your bank account detected. Click here to verify your identity: http://tiny.cc/bank-verify'. What should you do?",
+        "options": [
+            "Click the link to check if there really is unusual activity",
+            "Reply to the message asking for more information",
+            "Call your bank using the number on the back of your card",
+            "Forward the message to a friend to see if they got it too"
+        ],
+        "correct_answer": 2,
+        "difficulty": 2,
+        "explanation": "This is an SMS phishing (smishing) attempt. Banks never send links via text to verify identity. The shortened URL is designed to hide the actual malicious website. Instead of clicking, call your bank directly using the official number on your card or from their official website to check if there are any issues with your account.",
+        "theme": "smishing"
+    },
+    {
+        "id": "qrcode-001",
+        "title": "Malicious QR Code",
+        "description": "QR code phishing scenario",
+        "content": "You see a poster in the office lobby with a QR code claiming to link to the new company benefits portal. The poster doesn't have any official company branding but mentions an urgent deadline to update your benefits. What should you do?",
+        "options": [
+            "Scan the QR code to check out the new benefits portal",
+            "Ask HR if they posted the QR code",
+            "Ignore it and access the benefits portal through the official company intranet",
+            "Take down the poster since it doesn't have company branding"
+        ],
+        "correct_answer": 2,
+        "difficulty": 3,
+        "explanation": "This is likely a QR code phishing attempt. Attackers can place malicious QR codes in public areas to direct victims to fake websites. The lack of official branding and the urgency claim are red flags. Always access company resources through known, official channels like the company intranet rather than scanning unknown QR codes.",
+        "theme": "qr code phishing"
+    }
+]
